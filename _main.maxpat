@@ -20,6 +20,20 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-30",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1455.0, 216.0, 56.0, 32.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1455.0, 216.0, 80.0, 20.0 ],
+                    "text": "メッセージ例",
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
                     "data": {
                         "clips": [
                             {
@@ -121,7 +135,7 @@
                     "outlettype": [ "signal", "signal", "", "" ],
                     "patching_rect": [ 195.0, 85.0, 145.0, 70.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 795.0, 20.0, 145.0, 73.0 ],
+                    "presentation_rect": [ 795.0, 20.0, 145.0, 95.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -925,7 +939,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 545.0, 85.0, 90.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1445.0, 10.0, 90.0, 22.0 ],
+                    "presentation_rect": [ 1465.0, 10.0, 90.0, 22.0 ],
                     "text": "window getsize"
                 }
             },
@@ -950,7 +964,7 @@
                     "patching_rect": [ 46.0, 20.0, 197.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 20.0, 197.0, 20.0 ],
-                    "text": "Live electronics template 20251209",
+                    "text": "Live electronics template 20251219",
                     "textcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ]
                 }
             },
@@ -962,7 +976,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1835.0, 150.0, 79.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1440.0, 90.0, 79.0, 20.0 ],
+                    "presentation_rect": [ 1440.0, 91.0, 79.0, 20.0 ],
                     "text": "イベント番号",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -975,7 +989,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 102.0, 584.0, 34.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 630.0, 178.0, 34.0, 20.0 ],
+                    "presentation_rect": [ 632.2, 177.5, 34.0, 20.0 ],
                     "text": "pitch"
                 }
             },
@@ -987,7 +1001,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 128.0, 553.0, 41.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 615.0, 210.0, 41.0, 20.0 ],
+                    "presentation_rect": [ 615.0, 209.5, 41.0, 20.0 ],
                     "text": "attack"
                 }
             },
@@ -999,7 +1013,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 237.0, 581.0, 28.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 703.0, 178.0, 28.0, 20.0 ],
+                    "presentation_rect": [ 703.0, 177.5, 28.0, 20.0 ],
                     "text": "env"
                 }
             },
@@ -1300,7 +1314,7 @@
                     "outlettype": [ "", "int" ],
                     "patching_rect": [ 161.0, 51.0, 320.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 795.0, 140.0, 170.0, 16.0 ]
+                    "presentation_rect": [ 795.0, 155.0, 170.0, 16.0 ]
                 }
             },
             {
@@ -1312,7 +1326,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 121.0, 51.0, 35.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 795.0, 120.0, 35.0, 22.0 ],
+                    "presentation_rect": [ 795.0, 135.0, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -1408,7 +1422,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 556.0, 292.0, 1466.0, 995.0 ],
+                        "rect": [ 556.0, 106.0, 1466.0, 995.0 ],
                         "gridsize": [ 5.0, 5.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
@@ -1561,17 +1575,6 @@
                             },
                             {
                                 "box": {
-                                    "id": "obj-71",
-                                    "maxclass": "newobj",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 1200.0, 525.0, 96.0, 22.0 ],
-                                    "text": "r attack-to-Trans"
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-73",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1677,7 +1680,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 30.0, 905.0, 112.0, 20.0 ],
-                                    "text": "8 Ambient Granular"
+                                    "text": "8 Ambient Sampler"
                                 }
                             },
                             {
@@ -2012,7 +2015,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 455.0, 225.0, 119.0, 20.0 ],
+                                    "patching_rect": [ 450.0, 225.0, 119.0, 20.0 ],
                                     "text": "Rich Simmer Reverb"
                                 }
                             },
@@ -2024,7 +2027,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 455.0, 245.0, 139.0, 236.0 ],
+                                    "patching_rect": [ 450.0, 245.0, 139.0, 236.0 ],
                                     "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX3 0;\rADC to_FX5 0;\rFX3 to_FX6 0;\rFX5 to_FX6 -6;\r;\rFX3-param Transp 12;\r;\rFX5-param Size 300;\rFX5-param Dens 100;\rFX5-param Trans -1200;\rFX5-param Del 1000;\r;\rFX6-param Decay 10"
                                 }
                             },
@@ -2034,7 +2037,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 175.0, 225.0, 67.0, 20.0 ],
+                                    "patching_rect": [ 165.0, 225.0, 67.0, 20.0 ],
                                     "text": "Comb filter"
                                 }
                             },
@@ -2046,8 +2049,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 175.0, 245.0, 135.0, 129.0 ],
-                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX4 0;\r;\rFX4-param Time 5;\rFX4-param FeedB -0.5;\rFX4-param Autoscrub 0"
+                                    "patching_rect": [ 165.0, 245.0, 135.0, 129.0 ],
+                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX4 0;\r;\rFX4-param Time 5;\rFX4-param FeedB -0.5;\rFX4-param Auto 0"
                                 }
                             },
                             {
@@ -2056,7 +2059,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 890.0, 225.0, 81.0, 20.0 ],
+                                    "patching_rect": [ 885.0, 225.0, 81.0, 20.0 ],
                                     "text": "Stretch Delay"
                                 }
                             },
@@ -2068,7 +2071,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 890.0, 245.0, 125.0, 116.0 ],
+                                    "patching_rect": [ 885.0, 245.0, 125.0, 116.0 ],
                                     "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX4 0;\r;\rFX4-param FeedB -6;\rFX4-param Auto 1"
                                 }
                             },
@@ -2078,8 +2081,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 745.0, 225.0, 103.0, 20.0 ],
-                                    "text": "Ambient Granular"
+                                    "patching_rect": [ 740.0, 225.0, 101.0, 20.0 ],
+                                    "text": "Ambient Sampler"
                                 }
                             },
                             {
@@ -2090,7 +2093,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 745.0, 245.0, 133.0, 223.0 ],
+                                    "patching_rect": [ 740.0, 245.0, 133.0, 223.0 ],
                                     "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX5 0;\rFX5 to_DAC 0;\rFX5 to_FX4 0;\r;\rFX4-param Time 500;\rFX4-param FeedB -9;\rFX4-param Auto 0;\r;\rFX5-param Size 500;\rFX5-param Dens 500;\rFX5-param Trans -500;\rFX5-param Del 1000"
                                 }
                             },
@@ -2100,7 +2103,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 605.0, 225.0, 55.0, 20.0 ],
+                                    "patching_rect": [ 600.0, 225.0, 55.0, 20.0 ],
                                     "text": "Granular"
                                 }
                             },
@@ -2112,7 +2115,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 605.0, 245.0, 129.0, 223.0 ],
+                                    "patching_rect": [ 600.0, 245.0, 129.0, 223.0 ],
                                     "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX5 0;\rFX5 to_DAC 0;\rFX5 to_FX4 0;\r;\rFX4-param Time 300;\rFX4-param FeedB -6;\rFX4-param Auto 0;\r;\rFX5-param Size 100;\rFX5-param Dens 100;\rFX5-param Trans 700;\rFX5-param Del 500"
                                 }
                             },
@@ -2122,7 +2125,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 320.0, 225.0, 92.0, 20.0 ],
+                                    "patching_rect": [ 310.0, 225.0, 92.0, 20.0 ],
                                     "text": "Simmer Reverb"
                                 }
                             },
@@ -2134,8 +2137,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 320.0, 245.0, 124.0, 156.0 ],
-                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX3 0;\rADC to_FX6 -6;\rFX3 to_FX6 0;\r;\rFX3-param Corse 12;\r;\rFX6-param Decay 10"
+                                    "patching_rect": [ 310.0, 245.0, 131.0, 156.0 ],
+                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX3 0;\rADC to_FX6 -6;\rFX3 to_FX6 0;\r;\rFX3-param Coarse 12;\r;\rFX6-param Decay 10"
                                 }
                             },
                             {
@@ -2179,8 +2182,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 30.0, 245.0, 135.0, 129.0 ],
-                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX4 0;\r;\rFX4-param Time 500;\rFX4-param FeedB -6;\rFX4-param Autoscrub 0"
+                                    "patching_rect": [ 30.0, 245.0, 125.0, 129.0 ],
+                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX4 0;\r;\rFX4-param Time 500;\rFX4-param FeedB -6;\rFX4-param Auto 0"
                                 }
                             },
                             {
@@ -2440,7 +2443,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1775.0, 81.0, 91.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1440.0, 35.0, 91.0, 20.0 ],
+                    "presentation_rect": [ 1440.0, 33.099999999999994, 91.0, 20.0 ],
                     "text": "イベント進める",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -2453,7 +2456,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1850.0, 115.0, 56.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1400.0, 145.0, 56.0, 20.0 ],
+                    "presentation_rect": [ 1397.0, 147.10000000000002, 56.0, 20.0 ],
                     "text": "リセット",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -7575,14 +7578,6 @@
             "obj-83::obj-54": [ "live.gain~[3]", "live.gain~", 0 ],
             "obj-85::obj-17": [ "SMP_to_FX1", "SMP_to_FX1", 0 ],
             "obj-93::obj-17": [ "ADC_to_SMP", "ADC_to_SMP", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-100::obj-17": {
                     "parameter_longname": "FX1_to_SMP",
@@ -7652,7 +7647,7 @@
                 },
                 "obj-11::obj-144": {
                     "parameter_longname": "Dens[1]",
-                    "parameter_range": [ 20.0, 1585.3333333333333 ]
+                    "parameter_range": [ 20.0, 1500.0 ]
                 },
                 "obj-11::obj-45": {
                     "parameter_longname": "ModInALed[4]"
