@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -21,11 +21,10 @@
             {
                 "box": {
                     "id": "obj-30",
-                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1455.0, 216.0, 56.0, 32.0 ],
+                    "patching_rect": [ 955.0, 190.0, 80.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1455.0, 216.0, 80.0, 20.0 ],
                     "text": "メッセージ例",
@@ -964,7 +963,7 @@
                     "patching_rect": [ 46.0, 20.0, 197.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 20.0, 197.0, 20.0 ],
-                    "text": "Live electronics template 20251219",
+                    "text": "Live electronics template 20251220",
                     "textcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ]
                 }
             },
@@ -1417,7 +1416,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2028,7 +2027,8 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 450.0, 245.0, 139.0, 236.0 ],
-                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX3 0;\rADC to_FX5 0;\rFX3 to_FX6 0;\rFX5 to_FX6 -6;\r;\rFX3-param Transp 12;\r;\rFX5-param Size 300;\rFX5-param Dens 100;\rFX5-param Trans -1200;\rFX5-param Del 1000;\r;\rFX6-param Decay 10"
+                                    "presentation_linecount": 17,
+                                    "text": ";\rinit bang;\r;\rADC to_DAC 0;\rADC to_FX3 0;\rADC to_FX5 0;\rFX3 to_FX6 0;\rFX5 to_FX6 -6;\r;\rFX3-param Coarse 12;\r;\rFX5-param Size 300;\rFX5-param Dens 100;\rFX5-param Trans -1200;\rFX5-param Del 1000;\r;\rFX6-param Decay 10"
                                 }
                             },
                             {
@@ -2556,7 +2556,7 @@
                     "patching_rect": [ 1755.0, 240.0, 45.0, 23.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1380.0, 180.0, 45.0, 23.0 ],
-                    "save": [ "#N", "qlist", ";", "#X", "insert", "------------------------", 1, ";", ";", "#X", "insert", 0, 1, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Autoscrub", 0, ";", ";", "#X", "insert", "------------------------", 2, ";", ";", "#X", "insert", 0, 2, ";", ";", "#X", "insert", "ADC", "to_FX3", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX3", "to_FX6", 0, ";", ";", "#X", "insert", "FX5", "to_FX6", -6, ";", ";", "#X", "insert", "FX3-param", "Transp", 12, ";", ";", "#X", "insert", "FX5-param", "Size", 300, ";", ";", "#X", "insert", "FX5-param", "Dens", 100, ";", ";", "#X", "insert", "FX5-param", "Trans", -1200, ";", ";", "#X", "insert", "FX5-param", "Del", 1000, ";", ";", "#X", "insert", "FX6-param", "Decay", 10, ";", ";", "#X", "insert", "------------------------", 3, ";", ";", "#X", "insert", 0, 3, ";", ";", "#X", "insert", "ADC", "to_FX1", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX3", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX3", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX1-param", "Freq", 220, ";", ";", "#X", "insert", "FX1-param", "Drive", 0, ";", ";", "#X", "insert", "FX1-param", "Gain", 0, ";", ";", "#X", "insert", "FX1-param", "Mix", 1, ";", ";", "#X", "insert", "------------------------", 4, ";", ";", "#X", "insert", 0, 4, ";", ";", "#X", "insert", "ADC", "to_FX1", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX5", "to_DAC", 0, ";", ";", "#X", "insert", "FX5", "to_FX4", 0, ";", ";", "#X", "insert", "FX4-param", "Time", 300, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Auto", 0, ";", ";", "#X", "insert", "FX5-param", "Size", 100, ";", ";", "#X", "insert", "FX5-param", "Dens", 100, ";", ";", "#X", "insert", "FX5-param", "Trans", 700, ";", ";", "#X", "insert", "FX5-param", "Del", 500, ";", ";", "#X", "insert", "------------------------", 5, ";", ";", "#X", "insert", 0, 5, ";", ";", "#X", "insert", "ADC", "to_FX2", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "FX2-recall", 5, ";", ";", "#X", "insert", "------------------------", 6, ";", ";", "#X", "insert", 0, 6, ";", ";", "#X", "insert", "ADC", "to_FX2", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Auto", 1, ";", ";", "#X", "insert", "------------------------", 7, ";", ";", "#X", "insert", 0, 7, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX2", "to_DAC", -5, ";", ";", "#X", "insert", "FX2", "to_FX6", -5, ";", ";", "#X", "insert", "FX5", "to_DAC", -70, ";", ";", "#X", "insert", "FX5", "to_FX2", 0, ";", ";", "#X", "insert", "FX2-param", "recall", 2, ";", ";", "#X", "insert", "FX5-param", "Size", 150, ";", ";", "#X", "insert", "FX5-param", "Dens", 50, ";", ";", "#X", "insert", "FX5-param", "Trans", 0, ";", ";", "#X", "insert", "FX5-param", "Del", 10, ";", ";", "#X", "insert", "------------------------", 8, ";", ";", "#X", "insert", 0, 8, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX2", "to_DAC", 0, 100, ";", ";", "#X", "insert", "FX2", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_DAC", 0, ";", ";", "#X", "insert", "FX5", "to_FX2", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", 0, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -9, ";", ";", "#X", "insert", "FX4-param", "Auto", 0, ";", ";", "#X", "insert", "FX5-param", "Size", 500, ";", ";", "#X", "insert", "FX5-param", "Dens", 500, ";", ";", "#X", "insert", "FX5-param", "Trans", -500, ";", ";", "#X", "insert", "FX5-param", "Del", 1000, ";", ";", "#X", "insert", "------------------------", 9, ";", ";", "#X", "insert", 0, 9, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Autoscrub", 0, ";", ";", "#X", "insert", "------------------------", 10, ";", ";", "#X", "insert", 0, 10, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 3000, ";", ";", "#X", "insert", "------------------------", 11, ";", ";", "#X", "insert", 0, 11, ";", ";" ],
+                    "save": [ "#N", "qlist", ";", "#X", "insert", "------------------------", 1, ";", ";", "#X", "insert", 0, 1, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Autoscrub", 0, ";", ";", "#X", "insert", "------------------------", 2, ";", ";", "#X", "insert", 0, 2, ";", ";", "#X", "insert", "ADC", "to_FX3", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX3", "to_FX6", 0, ";", ";", "#X", "insert", "FX5", "to_FX6", -6, ";", ";", "#X", "insert", "FX3-param", "Coarse", 12, ";", ";", "#X", "insert", "FX5-param", "Size", 300, ";", ";", "#X", "insert", "FX5-param", "Dens", 100, ";", ";", "#X", "insert", "FX5-param", "Trans", -1200, ";", ";", "#X", "insert", "FX5-param", "Del", 1000, ";", ";", "#X", "insert", "FX6-param", "Decay", 10, ";", ";", "#X", "insert", "------------------------", 3, ";", ";", "#X", "insert", 0, 3, ";", ";", "#X", "insert", "ADC", "to_FX1", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX3", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX3", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX1-param", "Freq", 220, ";", ";", "#X", "insert", "FX1-param", "Drive", 0, ";", ";", "#X", "insert", "FX1-param", "Gain", 0, ";", ";", "#X", "insert", "FX1-param", "Mix", 1, ";", ";", "#X", "insert", "------------------------", 4, ";", ";", "#X", "insert", 0, 4, ";", ";", "#X", "insert", "ADC", "to_FX1", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX5", "to_DAC", 0, ";", ";", "#X", "insert", "FX5", "to_FX4", 0, ";", ";", "#X", "insert", "FX4-param", "Time", 300, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Auto", 0, ";", ";", "#X", "insert", "FX5-param", "Size", 100, ";", ";", "#X", "insert", "FX5-param", "Dens", 100, ";", ";", "#X", "insert", "FX5-param", "Trans", 700, ";", ";", "#X", "insert", "FX5-param", "Del", 500, ";", ";", "#X", "insert", "------------------------", 5, ";", ";", "#X", "insert", 0, 5, ";", ";", "#X", "insert", "ADC", "to_FX2", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "FX2-recall", 5, ";", ";", "#X", "insert", "------------------------", 6, ";", ";", "#X", "insert", 0, 6, ";", ";", "#X", "insert", "ADC", "to_FX2", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Auto", 1, ";", ";", "#X", "insert", "------------------------", 7, ";", ";", "#X", "insert", 0, 7, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX2", "to_DAC", -5, ";", ";", "#X", "insert", "FX2", "to_FX6", -5, ";", ";", "#X", "insert", "FX5", "to_DAC", -70, ";", ";", "#X", "insert", "FX5", "to_FX2", 0, ";", ";", "#X", "insert", "FX2-param", "recall", 2, ";", ";", "#X", "insert", "FX5-param", "Size", 150, ";", ";", "#X", "insert", "FX5-param", "Dens", 50, ";", ";", "#X", "insert", "FX5-param", "Trans", 0, ";", ";", "#X", "insert", "FX5-param", "Del", 10, ";", ";", "#X", "insert", "------------------------", 8, ";", ";", "#X", "insert", 0, 8, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "ADC", "to_FX5", 0, 100, ";", ";", "#X", "insert", "FX2", "to_DAC", 0, 100, ";", ";", "#X", "insert", "FX2", "to_FX6", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_DAC", 0, ";", ";", "#X", "insert", "FX5", "to_FX2", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", 0, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -9, ";", ";", "#X", "insert", "FX4-param", "Auto", 0, ";", ";", "#X", "insert", "FX5-param", "Size", 500, ";", ";", "#X", "insert", "FX5-param", "Dens", 500, ";", ";", "#X", "insert", "FX5-param", "Trans", -500, ";", ";", "#X", "insert", "FX5-param", "Del", 1000, ";", ";", "#X", "insert", "------------------------", 9, ";", ";", "#X", "insert", 0, 9, ";", ";", "#X", "insert", "ADC", "to_FX4", 0, 100, ";", ";", "#X", "insert", "ADC", "to_FX5", -70, 2000, ";", ";", "#X", "insert", "FX5", "to_FX4", -70, 2000, ";", ";", "#X", "insert", "FX4-param", "Time", 500, ";", ";", "#X", "insert", "FX4-param", "FeedB", -6, ";", ";", "#X", "insert", "FX4-param", "Autoscrub", 0, ";", ";", "#X", "insert", "------------------------", 10, ";", ";", "#X", "insert", 0, 10, ";", ";", "#X", "insert", "ADC", "to_FX4", -70, 3000, ";", ";", "#X", "insert", "------------------------", 11, ";", ";", "#X", "insert", 0, 11, ";", ";" ],
                     "text": "qlist"
                 }
             },
@@ -2574,7 +2574,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3101,7 +3101,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3575,7 +3575,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7578,6 +7578,14 @@
             "obj-83::obj-54": [ "live.gain~[3]", "live.gain~", 0 ],
             "obj-85::obj-17": [ "SMP_to_FX1", "SMP_to_FX1", 0 ],
             "obj-93::obj-17": [ "ADC_to_SMP", "ADC_to_SMP", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-100::obj-17": {
                     "parameter_longname": "FX1_to_SMP",
@@ -7647,7 +7655,7 @@
                 },
                 "obj-11::obj-144": {
                     "parameter_longname": "Dens[1]",
-                    "parameter_range": [ 20.0, 1500.0 ]
+                    "parameter_range": [ 20.0, 1585.3333333333333 ]
                 },
                 "obj-11::obj-45": {
                     "parameter_longname": "ModInALed[4]"
